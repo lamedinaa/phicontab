@@ -8,4 +8,4 @@ import os
 
 @login_required
 def home(request):
-    return render(request,'director/homeEmpresa.html',{})
+    return render(request,'empresa/empresa.html',{})
