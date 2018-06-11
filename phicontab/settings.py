@@ -76,28 +76,28 @@ WSGI_APPLICATION = 'phicontab.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 #
-DATABASES = {
-   'default': {
-       'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'phicontab',
-       'USER': 'postgres',
-       'PASSWORD': '80777727',
-       'HOST': '127.0.0.1',
-       'PORT': 5432,
-   }
-}
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'phicontab',
+#        'USER': 'postgres',
+#        'PASSWORD': '80777727',
+#        'HOST': '127.0.0.1',
+#        'PORT': 5432,
+#    }
+# }
 
 # EC2
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'phicontab',
-#         'USER': 'alejandro',
-#         'PASSWORD': 'Martin80777727',
-#         'HOST': '127.0.0.1',
-#         'PORT': '',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'phicontab',
+        'USER': 'alejandro',
+        'PASSWORD': 'Martin80777727',
+        'HOST': '127.0.0.1',
+        'PORT': '',
+    }
+}
 
 
 # Internationalization
